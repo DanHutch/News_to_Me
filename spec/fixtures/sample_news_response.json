@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 5215,
+  "articles": [
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Romain Dillet",
+      "title": "Coinbase users can now withdraw Bitcoin SV following BCH fork",
+      "description": "If you’re a Coinbase user, you may have seen some new tokens on your account. The Bitcoin Cash chain split into two different chains back in November. It means that if you held Bitcoin Cash on November 15, you became the lucky owner of Bitcoin SV and Bitcoin …",
+      "url": "http://techcrunch.com/2019/02/15/coinbase-users-can-now-withdraw-bitcoin-sv-following-bch-fork/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2017/08/bitcoin-split-2017a.jpg?w=711",
+      "publishedAt": "2019-02-15T14:53:40Z",
+      "content": "If youre a Coinbase user, you may have seen some new tokens on your account. The Bitcoin Cash chain split into two different chains back in November. It means that if you held Bitcoin Cash on November 15, you became the lucky owner of Bitcoin SV and Bitcoin A… [+1514 chars]"
+    },
+    {
+      "source": {
+        "id": "mashable",
+        "name": "Mashable"
+      },
+      "author": "Stan Schroeder",
+      "title": "Samsung's Galaxy S10 may come with a cryptocurrency wallet",
+      "description": "Samsung might be embracing crypto in a big way. Photos posted by leaker of mobile things Ben Geskin allegedly show a Samsung Galaxy S10 feature called the \"Samsung Blockchain KeyStore,\" which allows users to import a cryptocurrency wallet or create a new one.…",
+      "url": "https://mashable.com/article/samsung-galaxy-s10-cryptocurrency-wallet/",
+      "urlToImage": "https://mondrian.mashable.com/2019%252F01%252F24%252F07%252Fd88ec3acacbf4ece9690976e46226739.929b8.jpg%252F1200x630.jpg?signature=vZHMmpaeesKIQJm_5crpQH-GlIQ=",
+      "publishedAt": "2019-01-24T08:49:14Z",
+      "content": "Samsung might be embracing crypto in a big way. \r\nPhotos posted by leaker of mobile things Ben Geskin allegedly show a Samsung Galaxy S10 feature called the \"Samsung Blockchain KeyStore,\" which allows users to import a cryptocurrency wallet or create a new on… [+1557 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Trista Kelley",
+      "title": "Jack Dorsey is tweeting about his love of bitcoin: 'Bitcoin is resilient. Bitcoin is principled. Bitcoin is native to internet ideals.' (BTC)",
+      "description": "Jack Dorsey has tweet stormed about his love of bitcoin. \"I don’t see it as an investment,\" he wrote. It's a \"currency.\" It's a strong endorsement for the cryptocurrency that's had a rough 12 months. He added: Bitcoin will \"probably be the native currency.\" T…",
+      "url": "https://www.businessinsider.com/twitter-ceo-jack-dorsey-tweets-about-love-of-bitcoin-2019-2",
+      "urlToImage": "https://amp.businessinsider.com/images/5c5aa30cd7ab6773a00d2b33-2732-1366.jpg",
+      "publishedAt": "2019-02-06T11:45:43Z",
+      "content": "Twitter CEO Jack Dorsey has restated his love of bitcoin. \r\n In a strong endorsement of a cryptocurrency that's had a rough 12 months, Dorsey said he holds bitcoin and he thinks it's the future of money. \r\n \"I don't see it as an investment,\" he wrote in a flu… [+902 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Tom McKay",
+      "title": "Crypto Exchange Says It Can't Repay $190 Million to Clients After Founder Dies With Only Password",
+      "description": "Canadian crypto exchange QuadrigaCX says it cannot repay most of $190 million in client holdings after its 30-year-old founder Gerald Cotten, the only person who knew the passwords to its “cold storage,” unexpectedly died in India in December 2018, Coindesk r…",
+      "url": "https://gizmodo.com/crypto-exchange-says-it-cant-repay-190-million-to-clie-1832309454",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/s--jkq_9eny--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/pubcmwjcwgz04qsavubq.jpg",
+      "publishedAt": "2019-02-03T23:50:00Z",
+      "content": "Canadian crypto exchange QuadrigaCX says it cannot repay most of $190 million in client holdings after its 30-year-old founder Gerald Cotten, the only person who knew the passwords to its cold storage, unexpectedly died in India in December 2018, Coindesk rep… [+3756 chars]"
+    },
+    {
+      "source": {
+        "id": "mashable",
+        "name": "Mashable"
+      },
+      "author": "Jack Morse",
+      "title": "Crypto exchange mistakenly sends 103 bitcoin to wallet it's locked out of",
+      "description": "When it comes to cryptocurrency, things can always get worse. Earlier this month, news broke that QuadrigaCX, a Canadian cryptocurrency exchange, lost access to $190 million worth of customer crypto after the founder died — taking sole knowledge of the accoun…",
+      "url": "https://mashable.com/article/quadrigacx-sent-bitcoin-to-inaccessible-cold-wallet/",
+      "urlToImage": "https://mondrian.mashable.com/2019%252F02%252F13%252Fdc%252Fee8b5d2a1d054d3ab572fa1fe3451906.e51e8.png%252F1200x630.png?signature=P6Z_TJwTtaKKbOPgzWlVPszR738=",
+      "publishedAt": "2019-02-13T00:04:26Z",
+      "content": "When it comes to cryptocurrency, things can always get worse. \r\nEarlier this month, news broke that QuadrigaCX, a Canadian cryptocurrency exchange, lost access to $190 million worth of customer crypto after the founder died taking sole knowledge of the accoun… [+2199 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Jon Russell",
+      "title": "Atrium, Justin Kan’s legal tech startup, launches a fintech and blockchain division",
+      "description": "Atrium, the legal startup co-founder by Justin Kan of Twitch fame, is jumping into the blockchain space today. The company has raised plenty of money — including $65 million from A16z last September — so rather than an ICO or token sale, this is a consultancy…",
+      "url": "http://techcrunch.com/2019/02/14/atrium-fintech-and-blockchain/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/02/atrium.jpg?w=750",
+      "publishedAt": "2019-02-14T18:23:58Z",
+      "content": "Atrium, the legal startup co-founder by Justin Kan of Twitch fame, is jumping into the blockchain space today.\r\nThe company has raised plenty of money — including $65 million from A16z last September — so rather than an ICO or token sale, this is a consultanc… [+3651 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Yessi Bello Perez",
+      "title": "Blackmailers made $332,000 in Bitcoin during ‘sextortion’ scam",
+      "description": "Cybercriminals raked in more than $300,000 in Bitcoin payments during a ‘sextortion’ email-based blackmail campaign, which was first spotted in 2017 but saw increased activity mid-last year. According to a report by UK firm Digital Shadows, which tracked a sa…",
+      "url": "https://thenextweb.com/hardfork/2019/02/22/bitcoin-sex-scam-blackmailers/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F02%2Fcybercrime.png&signature=bc44f870809029c616b216d9b5215d06",
+      "publishedAt": "2019-02-22T13:12:33Z",
+      "content": "Cybercriminals raked in more than $300,000 in Bitcoin BTC payments during a sextortion email-based blackmail campaign, which was first spotted in 2017 but saw increased activity mid-last year.\r\nAccording to a report by UK firm Digital Shadows, which tracked a… [+3281 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Jacqui Frank and Sara Silverstein",
+      "title": "Vitalik Buterin created one of the world’s largest cryptocurrencies in his early twenties — here’s how he did it and why",
+      "description": "Vitalik Buterin is the co-founder of Ethereum, the second largest cryptocurrency in the world. Buterin was 21-years-old when the cryptocurrency was initially released. Buterin became interested in bitcoin in 2011 and co-founded a bitcoin magazine. Eventually,…",
+      "url": "https://www.businessinsider.com/vitalik-buterin-created-ethereum-one-of-the-worlds-three-largest-cryptocurrencies-2019-1",
+      "urlToImage": "https://amp.businessinsider.com/images/5c4485a12bdd7f172b5add72-1920-960.jpg",
+      "publishedAt": "2019-02-13T12:22:00Z",
+      "content": "VItalik Buterin sat down with Business Insider at DesTechAZ in October, 2018. In this clip he talks about how he got involved in the cryptocurrency space and why he created Ethereum. Following is a transcript of the video. \r\nVitalik Buterin: So, I first got i… [+1761 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Adel de Meyer",
+      "title": "Cryptocurrency: Yay or Nay?",
+      "description": "Cryptocurrencies, such as Bitcoin, have had a roller-coaster past year or so. It seemed that they could do no wrong in 2017, with Bitcoin leading the way with a $20,000 USD valuation per token at one point in December. The price plummeted from there, as Bitco…",
+      "url": "https://thenextweb.com/contributors/2019/02/01/cryptocurrency-yay-or-nay/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F02%2Fcryptocurrency-future-or-no-future-tnw.png&signature=2da86f3469c50270dc41ca5373381fd2",
+      "publishedAt": "2019-02-01T13:42:12Z",
+      "content": "Cryptocurrencies, such as Bitcoin, have had a roller-coaster past year or so. It seemed that they could do no wrong in 2017, with Bitcoin leading the way with a $20,000 USD valuation per token at one point in December. The price plummeted from there, as Bitco… [+5911 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bitcoin.com"
+      },
+      "author": null,
+      "title": "Quadrigacx Saga: Founder's' Widow Owns Million-Dollar Properties - Bitcoin News",
+      "description": "Quadrigacx Saga: Founder's' Widow Owns Million-Dollar Properties Bitcoin News Meet Gerald Cotten, whose death froze crores of cryptocurrency, dividing netizens India Today Details Emerging On Death Of Crypto CEO Gerald Cotten: Report NDTV News Left high and d…",
+      "url": "https://news.bitcoin.com/quadrigacx-saga-founders-widow-owns-5-6m-properties-hospital-confirms-cottens-death/",
+      "urlToImage": "https://news.bitcoin.com/wp-content/uploads/2019/02/2019-02-08-17-36-32.jpg",
+      "publishedAt": "2019-02-08T18:03:30Z",
+      "content": "Troubled Canadian cryptocurrency exchange Quadrigacx may be newly armed with a 30-day stay from creditors, following the Feb. 5 bankruptcy hearing, but its late CEOs widow, Jennifer Robertson, is on shifting ground as her affidavit is being picked apart by cu… [+5168 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Rebecca Campbell",
+      "title": "The ultimate cryptocurrency explainer: Bitcoin, utility tokens, and stablecoins",
+      "description": "Ten years ago the arrival of Bitcoin changed how we view the global monetary system. With it, a new era was introduced that is reshaping how we connect and exchange value. Cryptocurrencies are decentralized digital assets that use cryptography as an encryptio…",
+      "url": "https://thenextweb.com/hardfork/2019/02/13/bitcoin-stablecoins-utility-cryptocurrency/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F02%2Fetoro-crypto-explained-1-1.jpg&signature=d0ba19afd66a2d5f35010c9b96abead8",
+      "publishedAt": "2019-02-13T17:18:34Z",
+      "content": "Ten years ago the arrival of Bitcoin BTC changed how we view the global monetary system. With it, a new era was introduced that is reshaping how we connect and exchange value.\r\nCryptocurrencies are decentralized digital assets that use cryptography as an encr… [+8703 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Ben Dickson",
+      "title": "8 expert insights on what will happen with Bitcoin in 2019",
+      "description": "From the dramatic price plunge of Bitcoin and other digital assets to the regulatory crackdown on initial coin offerings (ICOs) and the continued trail of crypto-exchange hacks, the cryptocurrency industry put behind a very turbulent year. But does it mean th…",
+      "url": "https://thenextweb.com/hardfork/2019/02/05/8-expert-insights-on-what-will-happen-with-bitcoin-in-2019/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F01%2Fbitcoin_8-experts_hf.jpg&signature=6718f2f4a6bdcad21e29892c15d9af19",
+      "publishedAt": "2019-02-05T16:03:41Z",
+      "content": "From the dramatic price plunge of Bitcoin BTC and other digital assets to the regulatory crackdown on initial coin offerings (ICOs) and the continued trail of crypto-exchange hacks, the cryptocurrency industry put behind a very turbulent year.\r\nBut does it me… [+7280 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Rebecca Campbell",
+      "title": "A deep dive into Bitcoin – and what makes it better than ‘real money’",
+      "description": "In 2008, the pseudonymous person (or persons) by the name of Satoshi Nakamoto released a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash System. The release of the whitepaper came at the time of the 2008 global financial crisis, putting trust among …",
+      "url": "https://thenextweb.com/hardfork/2019/02/13/a-deep-dive-into-bitcoin-and-what-makes-it-better-than-real-money/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F02%2Fetoro-deep-bitcoin.jpg&signature=f74b712c1e6a59ab1bc7eead8c023fd5",
+      "publishedAt": "2019-02-13T17:18:24Z",
+      "content": "In 2008, the pseudonymous person (or persons) by the name of Satoshi Nakamoto released a whitepaper called Bitcoin: A Peer-to-Peer Electronic Cash System.\r\nThe release of the whitepaper came at the time of the 2008 global financial crisis, putting trust among… [+6880 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Quadriga: The cryptocurrency exchange that lost $135m",
+      "description": "When Quadriga's founder died he left behind a mystery: what happened to millions in cryptocurrency?",
+      "url": "https://www.bbc.co.uk/news/world-us-canada-47203706",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7AF8/production/_105608413_gerald.jpg",
+      "publishedAt": "2019-02-17T00:41:33Z",
+      "content": "Image copyrightFacebook/QuadrigaImage caption\r\n Gerald Cotten\r\nWhen the 30-year-old founder of a Canadian cryptocurrency exchange died suddenly, he took the whereabouts of some C$180m ($135m; £105m) in cryptocurrency to his grave. Now, tens of thousands of Qu… [+8275 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Entrepreneur.com"
+      },
+      "author": "Scott McGovern",
+      "title": "9 Reasons the Crypto Market Is Down",
+      "description": "It isn't as bad as you think.",
+      "url": "https://www.entrepreneur.com/article/326790",
+      "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/20190214203950-GettyImages-950974102.jpeg",
+      "publishedAt": "2019-02-15T13:00:00Z",
+      "content": "February\r\n15, 2019\r\n8 min read\r\nOpinions expressed by Entrepreneur contributors are their own.\r\nBring up cryptocurrency today, and you are likely to hear that the crypto market is down. People have finally realized that cryptocurrency has no real value -- or … [+9059 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "David Canellis",
+      "title": "Welcome to the longest Bitcoin bear market in history",
+      "description": "Welcome to the most intense Crypto Winter ever felt. By the end of today, we will have survived more straight days (411) of falling Bitcoin value than at any other point in its 10-year history. The previous record for downward price movement in cryptocurrency…",
+      "url": "https://thenextweb.com/hardfork/2019/02/01/bitcoin-cryptocurrency-bear-history/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F02%2Fbitcoinbear-1.jpeg&signature=0a7ce14500b269313ee8fe7f622176b6",
+      "publishedAt": "2019-02-01T15:54:29Z",
+      "content": "You are in the most intense Crypto Winter ever felt.\r\nBy the end of today, we will have survived more straight days (411) of falling Bitcoin BTC value than at any other point in its 10-year history.\r\nThe previous record for downward price movement in cryptocu… [+1029 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Danny Crichton",
+      "title": "Security token offerings aren’t looking much better in 2019",
+      "description": "Pressed to explain who is using them, and why, 99 percent of cryptocurrencies let out all their air, go flying around the room making a raspberry sound, hit the wall and fall behind the couch forever. The party is over. A few, however, can present a credible …",
+      "url": "http://techcrunch.com/2019/02/20/security-token-offerings-arent-looking-much-better-in-2019/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/02/GettyImages-845559700.jpg?w=709",
+      "publishedAt": "2019-02-21T00:04:21Z",
+      "content": "Pressed to explain who is using them, and why, 99 percent of cryptocurrencies let out all their air, go flying around the room making a raspberry sound, hit the wall and fall behind the couch forever.\r\nThe party is over. A few, however, can present a credible… [+5586 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Mix",
+      "title": "How Twitter’s Jack Dorsey became Bitcoin’s unlikely champion",
+      "description": "Blockchain has a new unexpected hero: Twitter’s Jack Dorsey. Although up until recently the cryptocurrency community would routinely grill Dorsey over Twitter’s notorious Bitcoin giveaway scam epidemic, the micro-blogging service’s chief has found a new fando…",
+      "url": "https://thenextweb.com/hardfork/2019/02/12/blockchain-bitcoin-dorsey-twitter/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F02%2Ftwitter-dorsey-bitcoin-blockchain-cryptocurrency.jpg&signature=4fd7da170506f89bdae8c93ff90c3719",
+      "publishedAt": "2019-02-12T17:08:59Z",
+      "content": "Blockchain has a new unexpected hero: Twitters Jack Dorsey.\r\nAlthough up until recently the cryptocurrency community would routinely grill Dorsey over Twitters notorious Bitcoin giveaway scam epidemic, the micro-blogging services chief has found a new fandom … [+6397 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Zack Whittaker",
+      "title": "ClassPass, Gfycat, StreetEasy hit in latest round of mass site hacks",
+      "description": "In just a week, a single seller put close to 750 million records from 24 hacked sites up for sale. Now, the hacker has struck again. The hacker, whose identity isn’t known, began listing user data from several major websites — including MyFitnessPal, 500px an…",
+      "url": "http://techcrunch.com/2019/02/16/classpass-gfycat-streeteasy-hacks/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/02/gettyimages-470102072.jpg?w=618",
+      "publishedAt": "2019-02-16T19:02:00Z",
+      "content": "In just a week, a single seller put close to 750 million records from 24 hacked sites up for sale. Now, the hacker has struck again.\r\nThe hacker, whose identity isn’t known, began listing user data from several major websites including MyFitnessPal, 500px and… [+1881 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cnet.com"
+      },
+      "author": "Steven Musil",
+      "title": "Will the Samsung Galaxy S10 come cyrptocurrency-ready? - CNET",
+      "description": "Leaked images show a purported Galaxy S10 with a \"Blockchain KeyStore.\"",
+      "url": "https://www.cnet.com/news/will-the-samsung-galaxy-s10-come-cyrptocurrency-ready/",
+      "urlToImage": "https://cnet3.cbsistatic.com/img/Z_swmJSKHg5DtbsX5jLntUlvaW0=/724x407/2019/01/24/b172800d-86c2-4134-9d4e-e81ecf19424d/gettyimages-9190786301.jpg",
+      "publishedAt": "2019-01-24T01:05:07Z",
+      "content": "If you need a smartphone that will also work as a mobile cyrptocurrency wallet, Samsung may have a handset for you.\r\nPhotos tweeted by leaker Ice universe on Wednesday purport to show the Samsung Galaxy S10 with support for cyrptocurrencies and sporting a Blo… [+926 chars]"
+    }
+  ]
+}
