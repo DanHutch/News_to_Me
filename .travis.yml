@@ -6,8 +6,8 @@ services:
 before_install:
 - gem install bundler
 - bundle install
-before_script:
-- bundle exec rake db:{drop,create}
+# before_script:
+# - bundle exec rake db:{drop,create}
 script:
 - bundle exec rspec
 env:
