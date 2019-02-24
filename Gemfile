@@ -36,6 +36,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'figaro'
 gem 'faraday'
 gem 'news-api'
+gem 'travis'
 
 
 
