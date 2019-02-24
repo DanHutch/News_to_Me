@@ -1,0 +1,26 @@
+<body class="news-feed-container">
+  <header class="news-feed-header">
+  </header>
+  <main class="news-feed-main">
+    <% @news.each do |story| %>
+      <div class="story-card">
+        <div class="story-img-container">
+          <img class="story-img" src= <%="#{story.urlToImage}"%> >
+        </div>
+        <h2 class="story-title">
+          <%= link_to story.title, story.url %>
+        </h2>
+        <div class="by-line">
+          By: <%= story.author %>, <%= story.name %>
+        </div>
+        <div class="published-at">
+          Date: <%= story.publishedAt %>
+        </div>
+        <div class="description">
+          <%= story.description %>
+        </div>
+        <br><br>
+      </div>
+    <% end %>
+  </main>
+</body>
