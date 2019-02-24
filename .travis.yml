@@ -5,8 +5,8 @@ services:
 - postgresql
 before_install:
 - gem install bundler
-# before_script:
-# - bundle exec rake db:{drop,create}
+before_script:
+- bundle exec rake db:{create}
 script:
 - bundle exec rspec
 env:
