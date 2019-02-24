@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NewsToMe</title>
+    <title>News To Me</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,4 +12,9 @@
   <body>
     <%= yield %>
   </body>
+  <footer class="main-footer">
+    <p class="attribution">
+      Powered By <%= link_to 'NewsAPI.org', "https://newsapi.org" %>
+    </p>
+  </footer>
 </html>
