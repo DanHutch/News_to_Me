@@ -7,17 +7,10 @@
         <div class="story-img-container">
           <img class="story-img" src= <%="#{story.urlToImage}"%> >
         </div>
-        <h2 class="story-title">
-          <%= link_to story.title, story.url %>
-        </h2>
-        <div class="add-fav-container">
-          <% if !Favorite.exists?(story.url) %>
-            <%= button_to "Add to Favorites", add_fav_path(favorite: {title: story.title, author: story.author, publication: story.name, date: story.publishedAt, url: story.url, img_url: story.urlToImage, description: story.description})%>
-          <% else %>
-            <p class="favorited">
-              **Article Favorited**
-            </p>
-          <% end %>
+        <div class="story-title">
+          <h2 >
+            <%= link_to story.title, story.url %>
+          </h2>
         </div>
         <div class="by-line">
           <% if story.author %>
@@ -32,6 +25,15 @@
         </div>
         <div class="description">
           <%= story.description %>
+        </div>
+                <div class="add-fav-container">
+          <% if !Favorite.exists?(story.url) %>
+            <%= button_to "Add to Favorites", add_fav_path(favorite: {title: story.title, author: story.author, publication: story.name, date: story.publishedAt, url: story.url, img_url: story.urlToImage, description: story.description}), class: "cta-button"%>
+          <% else %>
+            <p class="favorited">
+              **Article Favorited**
+            </p>
+          <% end %>
         </div>
       </div>
     <% end %>

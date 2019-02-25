@@ -11,11 +11,11 @@
 
   <body>
     <div class="main-header">
-      <%= link_to 'NewsFeed', root_path  %>
+      <%= link_to 'NewsFeed', root_path, class: "cta-button"  %>
       <h1 class="title">
         News to Me
       </h1>
-      <%= link_to 'Favorites', favs_path  %>
+      <%= link_to 'Favorites', favs_path, class: "cta-button"  %>
     </div>
     <div class="flash-message">
       <% flash.each do |name, msg| %>

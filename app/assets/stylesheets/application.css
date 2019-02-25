@@ -11,11 +11,10 @@ body {
 }
 
 .main-header {
-    padding: 40px;
-
+  padding-top: 40px;
+  padding-bottom: 15px;
   position: fixed;
   top: -20px;
-  color: #5D5E60;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -25,12 +24,16 @@ body {
   align-content: space-around;
 }
 
-footer {
+.main-footer {
   color: #5D5E60;
   width: 100%;
   background-color: #BEB2C8;
   text-align: center;
   justify-content: space-between;
+  position: fixed;
+  bottom: -5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 .story-card {
@@ -44,6 +47,34 @@ footer {
   width: 80%;
   margin: 20px;
 }
+
+
+.cta-button {
+  text-decoration: none;
+  padding: 10px;
+  color:#f6f6f6;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:1em;
+  border-radius: 5px;
+  background-color: #8D8D92;
+  transition: all 0.1s ease-in-out;
+}
+
+.cta-button:hover {
+  color:#f6f6f6;
+  background-color: #5D5E60;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.description, .story-title {
+  margin-bottom: 20px;
+}
+
+/* .story-title {
+  margin-bottom: 20px;
+} */
 
 
 
