@@ -1,17 +1,24 @@
-# This file is copied to spec/ when you run 'rails generate rspec:install'
-require 'simplecov'
-
-SimpleCov.start do
-  add_filter "/spec"
-end
-
 require 'spec_helper'
+
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
 require 'vcr'
 require 'webmock/rspec'
+require 'simplecov'
+require 'shoulda/matchers'
+
+SimpleCov.start do
+  add_filter "/spec"
+end
+
+Shoulda::Matchers.configure do |config|
+    config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
+end
 
 VCR.configure do |config|
   config.ignore_localhost = true
