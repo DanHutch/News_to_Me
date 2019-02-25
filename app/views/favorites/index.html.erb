@@ -1,0 +1,38 @@
+<body class="news-feed-container">
+  <header class="favs-header">
+  </header>
+  <main class="favs-main">
+
+    <% if @favorites.length < 1 %>
+      <div class="empty-favs">
+        You do not currently have any favorited articles.
+      </div>
+    <% else %>
+      <% @favorites.each do |story| %>
+        <div class="story-card">
+          <div class="story-img-container">
+            <img class="story-img" src= <%="#{story.img_url}"%> >
+          </div>
+          <h2 class="story-title">
+            <%= link_to story.title, story.url %>
+          </h2>
+          <div class="by-line">
+            <% if story.author %>
+              By: <%= story.author %>
+            <% end %>
+          </div>
+          <div class="publication">
+            Source: <%= story.publication %>
+          </div>
+          <div class="published-at">
+            Date: <%= story.date %>
+          </div>
+          <div class="description">
+            <%= story.description %>
+          </div>
+          <br><br>
+        </div>
+      <% end %>
+    <% end %>
+  </main>
+</body>

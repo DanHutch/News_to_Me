@@ -10,6 +10,15 @@
         <h2 class="story-title">
           <%= link_to story.title, story.url %>
         </h2>
+        <div class="add-fav-container">
+          <% if !Favorite.exists?(story.url) %>
+            <%= button_to "Add to Favorites", add_fav_path(favorite: {title: story.title, author: story.author, publication: story.name, date: story.publishedAt, url: story.url, img_url: story.urlToImage, description: story.description})%>
+          <% else %>
+            <p class="favorited">
+              **Article Favorited**
+            </p>
+          <% end %>
+        </div>
         <div class="by-line">
           <% if story.author %>
             By: <%= story.author %>
@@ -20,11 +29,6 @@
         </div>
         <div class="published-at">
           Date: <%= story.publishedAt %>
-        </div>
-        <div class="add-fav-container">
-          <% if !Favorite.exists?(story.url) %>
-            <%= button_to "Add to Favorites", add_fav_path(favorite: {title: story.title, author: story.author, publication: story.name, date: story.publishedAt, url: story.url, img_url: story.urlToImage, description: story.description})%>
-          <% end %>
         </div>
         <div class="description">
           <%= story.description %>
