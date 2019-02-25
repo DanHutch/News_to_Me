@@ -1,5 +1,9 @@
 class FavoritesController < ApplicationController
 
+  def index
+    @favorites = Favorite.all.order('created_at DESC')
+  end
+
   def create
     favorite = Favorite.new(fav_params)
     attempt_save_fav(favorite)
