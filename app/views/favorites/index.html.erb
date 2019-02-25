@@ -3,12 +3,12 @@
   </header>
   <main class="favs-main">
 
-    <% if @favorites.length < 1 %>
+    <% if @facade.empty? %>
       <div class="empty-favs">
         You do not currently have any favorited articles.
       </div>
     <% else %>
-      <% @favorites.each do |story| %>
+      <% @facade.stories.each do |story| %>
         <div class="story-card">
           <div class="story-img-container">
             <img class="story-img" src= <%="#{story.img_url}"%> >
@@ -25,7 +25,7 @@
             Source: <%= story.publication %>
           </div>
           <div class="published-at">
-            Date: <%= story.date %>
+            Date: <%= @facade.format_date(story.date) %>
           </div>
           <div class="description">
             <%= story.description %>

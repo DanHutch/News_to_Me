@@ -1,7 +1,7 @@
 class NewsFeedController < ApplicationController
 
   def index
-    @news = NewsApiService.get_news('bitcoin')
+    @facade = FeedFacade.new(NewsApiService.get_news('bitcoin'))
   end
 
 end

@@ -2,7 +2,7 @@
   <header class="news-feed-header">
   </header>
   <main class="news-feed-main">
-    <% @news.each do |story| %>
+    <% @facade.stories.each do |story| %>
       <div class="story-card">
         <div class="story-img-container">
           <img class="story-img" src= <%="#{story.urlToImage}"%> >
@@ -28,7 +28,7 @@
           Source: <%= story.name %>
         </div>
         <div class="published-at">
-          Date: <%= story.publishedAt %>
+          Date: <%= @facade.format_date(story.publishedAt) %>
         </div>
         <div class="description">
           <%= story.description %>

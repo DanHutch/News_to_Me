@@ -1,7 +1,8 @@
 class FavoritesController < ApplicationController
 
   def index
-    @favorites = Favorite.all.order('created_at DESC')
+    @facade = FeedFacade.new(Favorite.all.order('created_at DESC'))
+    # @favorites = Favorite.all.order('created_at DESC')
   end
 
   def create
