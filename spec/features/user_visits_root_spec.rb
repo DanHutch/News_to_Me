@@ -48,11 +48,6 @@ describe 'Visitor' do
           end
         end
 
-        expect(current_path).to eq(root_path)
-        expect(page).to have_content("Article Added to Favorites!")
-        within(first('.story-card')) do
-          expect(page).to_not have_button("Add to Favorites")
-        end
         expect(Favorite.count).to eq(1)
         expect(Favorite.first).to be_a(Favorite)
       end

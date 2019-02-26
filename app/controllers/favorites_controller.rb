@@ -13,8 +13,8 @@ class FavoritesController < ApplicationController
 private
 
   def attempt_save_fav(fav)
-    if fav.save
-      flash[:success] = "Article Added to Favorites!"
+    unless fav.save
+      flash[:error] = "Something went wrong"
       redirect_to root_path
     end
   end

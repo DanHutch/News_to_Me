@@ -26,13 +26,13 @@
         <div class="description">
           <%= story.description %>
         </div>
-                <div class="add-fav-container">
-          <% if !Favorite.exists?(story.url) %>
-            <%= button_to "Add to Favorites", add_fav_path(favorite: {title: story.title, author: story.author, publication: story.name, date: story.publishedAt, url: story.url, img_url: story.urlToImage, description: story.description}), class: "cta-button"%>
+        <div class="add-fav-container">
+          <% if !@facade.favorite?(story.url) %>
+            <%= button_to "Add to Favorites", add_fav_path(favorite: {title: story.title, author: story.author, publication: story.name, date: story.publishedAt, url: story.url, img_url: story.urlToImage, description: story.description}), class: "cta-button fav", data: {disable_with: 'Favorited'} %>
           <% else %>
-            <p class="favorited">
-              **Article Favorited**
-            </p>
+            <button class="fav favorited disabled-button" disabled=true>
+              Favorited
+            </button>
           <% end %>
         </div>
       </div>

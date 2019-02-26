@@ -34,6 +34,7 @@ body {
   bottom: -5px;
   padding-top: 10px;
   padding-bottom: 15px;
+  font-size: 50%;
 }
 
 .story-card {
@@ -43,13 +44,17 @@ body {
   border-radius: 30px;
 }
 
+.story-card:first-of-type {
+  margin-top: 40px;
+}
+
 .story-img {
   width: 80%;
   margin: 20px;
 }
 
 
-.cta-button {
+.cta-button, .disabled-button {
   text-decoration: none;
   padding: 10px;
   color:#f6f6f6;
@@ -61,6 +66,17 @@ body {
   transition: all 0.1s ease-in-out;
 }
 
+/* .fav {
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  background: url(image_path('star.svg'))
+} */
+
+.disabled-button {
+  cursor: default
+}
+
 .cta-button:hover {
   color:#f6f6f6;
   background-color: #5D5E60;
@@ -68,14 +84,16 @@ body {
   cursor: pointer;
 }
 
+.cta-button:disabled{
+  background-color: #8D8D92;
+  cursor: default;
+}
+
 .description, .story-title {
   margin-bottom: 20px;
 }
 
-/* .story-title {
-  margin-bottom: 20px;
-} */
-
-
-
-
+.description {
+  margin-top: 5px;
+  font-size: 125%;
+}
