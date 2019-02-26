@@ -5,9 +5,9 @@ describe NewsApiService do
   context "class methods" do
 
     context ".get_news" do
-      it "returns a user's data" do
+      it "returns news data" do
         VCR.use_cassette("newsapi_service_spec") do
-          news = NewsApiService.get_news('bitcoin')
+          news = NewsApiService.get_news('funny')
           expect(news).to be_a(Array)
           expect(news.length).to eq(20)
           news.each do |story|
