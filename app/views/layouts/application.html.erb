@@ -11,11 +11,20 @@
 
   <body>
     <div class="main-header">
-      <%= link_to 'NewsFeed', root_path  %>
+      <% if !current_page?('/') %>
+        <%= link_to 'NewsFeed', root_path, class: "cta-button"  %>
+      <% else %>
+        <%= link_to 'NewsFeed', root_path, class: "disabled-button"  %>
+      <% end %>
+
       <h1 class="title">
         News to Me
       </h1>
-      <%= link_to 'Favorites', favs_path  %>
+      <% if !current_page?('/favorites') %>
+        <%= link_to 'Favorites', favs_path, class: "cta-button"  %>
+      <% else %>
+        <%= link_to 'Favorites', favs_path, class: "disabled-button" %>
+      <% end %>
     </div>
     <div class="flash-message">
       <% flash.each do |name, msg| %>
@@ -28,5 +37,7 @@
     <p class="attribution">
       Powered By <%= link_to 'NewsAPI.org', "https://newsapi.org" %>
     </p>
+    <%# <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <div>Icons made by <a href="https://www.flaticon.com/authors/maxim-basinski" title="Maxim Basinski">Maxim Basinski</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> %>
   </footer>
 </html>

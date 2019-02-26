@@ -13,6 +13,10 @@ class FeedFacade
     date_in.to_datetime.strftime("%m/%d/%Y")
   end
 
+  def favorite?(url)
+    Favorite.exists?(url)
+  end
+
   def empty?
     @stories.length < 1
   end
