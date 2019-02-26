@@ -9,7 +9,6 @@ class FeedFacade
   end
 
   def format_date(date_in)
-
     date_in.to_datetime.strftime("%m/%d/%Y")
   end
 
