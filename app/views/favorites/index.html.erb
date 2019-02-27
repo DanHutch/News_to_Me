@@ -2,10 +2,9 @@
   <header class="favs-header">
   </header>
   <main class="favs-main">
-
     <% if @facade.empty? %>
       <div class="empty-favs">
-        You do not currently have any favorited articles.
+        <p>You do not currently have any favorited articles.</p>
       </div>
     <% else %>
       <% @facade.stories.each do |story| %>

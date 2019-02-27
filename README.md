@@ -1,8 +1,10 @@
 # *News to Me* - ReadMe
 
+![main screenshot](./readme_imgs/main.png)
+
 ### Introduction:
 
-*News to Me* is a news app designed to allow a user to access top headlines about **TOPIC**. *News to Me* consumes data from the NewsAPI.org API. It was developed using Ruby 2.4.1 and Rails 5.2.2, and uses a PostgreSQL 11.1 database. The production app can be found at https://newstome.herokuapp.com/.
+*News to Me* is a news app designed to allow a user to access top headlines about (hopefully) funny and generally light-hearted news stories. *News to Me* consumes data from the NewsAPI.org API. It was developed using Ruby 2.4.1 and Rails 5.2.2, and uses a PostgreSQL 11.1 database. The production app can be found at https://newstome.herokuapp.com/.
 
 ### Setup:
 
@@ -52,11 +54,30 @@ The local test suite uses `gem 'vcr'` to record HTTP/API responses. Once you hav
 
 ### Schema:
 
-![Schema Diagram](./schema_diagram.png)
+![Schema Diagram](./readme_imgs/schema_diagram.png)
+
+### Using the App:
+  When visiting the root URL (newsfeed), a user will be presented with a scrolling list (newsfeed) of the top 20 news articles related to the 'funny' query. Every article title is a click-able link that will take the user to the original article page.
+
+  Each article can be added to the favorites list by clicking on the "Add to Favorites" button on that article-card:
+
+  ![Add to Favorites Button](./readme_imgs/add_favorite.png)
+
+  Any articles that have already been added to favorites will show an inactive button labeled, "Favorited":
+
+  ![Add to Favorites Button](./readme_imgs/favorited.png)
+
+  Clicking on the "Favorites" button in the top right corner (in the header bar) will take a user to the favorites view, in which all the articles that have been added to favorites can be viewed. Like on the newsfeed view, each favorited article's title is a clickable link that will take the user to the original article.
+
+  From the favorites view, a user can click the "Newsfeed" button in the top left corner (in the header bar) to go back to the main newsfeed view. Refreshing or returning to the newsfeed view will send a fresh API request to NewsAPI.org and return an update set of articles, if any updates have occurred since the last request.
+
+
 
 ### Future Iterations:
 
--
+- Multi-user functionality
+  - User authentication
+- Deleting favorites
 
 ### Contributing:
 

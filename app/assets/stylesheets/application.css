@@ -78,6 +78,11 @@ body {
   cursor: default
 }
 
+.empty-favs {
+  margin-top: 150px;
+  font-size: 150%;
+}
+
 .cta-button:hover {
   color:#f6f6f6;
   background-color: #5D5E60;
