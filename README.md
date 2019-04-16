@@ -4,7 +4,7 @@
 
 ### Introduction:
 
-*News to Me* is a news app designed to allow a user to access top headlines about (hopefully) funny and generally light-hearted news stories. *News to Me* consumes data from the NewsAPI.org API. It was developed using Ruby 2.4.1 and Rails 5.2.2, and uses a PostgreSQL 11.1 database. The production app can be found at https://newstome.herokuapp.com/.
+*News to Me* is a news app designed to allow a user to access top headlines about (hopefully) funny and generally light-hearted news stories. *News to Me* consumes data from the NewsAPI.org API. It was developed using Ruby 2.4.1 and Rails 5.2.2, and uses a PostgreSQL 11.1 database. The project board used to organize the workflow for this app is located at https://github.com/DanHutch/News_to_Me/projects/1. The production app can be found at https://newstome.herokuapp.com/.
 
 ### Setup:
 
